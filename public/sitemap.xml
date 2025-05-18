@@ -4,26 +4,28 @@
   <sitemap>
     <loc>http://localhost:1313/en/sitemap.xml</loc>
     
-      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/fa/sitemap.xml</loc>
     
-      <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+      <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/ja/sitemap.xml</loc>
     
+      <lastmod>2025-05-18T17:51:10+09:00</lastmod>
+    
   </sitemap>
   
   <sitemap>
     <loc>http://localhost:1313/zh-cn/sitemap.xml</loc>
     
-      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     
   </sitemap>
   

@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ja/docs/getting-started/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -25,6 +26,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/organize-files/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -47,6 +49,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/advanced/multi-language/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -69,6 +72,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/markdown/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -91,6 +95,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -113,6 +118,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/configuration/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -135,6 +141,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/syntax-highlighting/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -157,6 +164,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/latex/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -179,6 +187,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/diagrams/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -201,6 +210,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -245,6 +255,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/filetree/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -267,6 +278,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -289,6 +301,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/jupyter/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -328,6 +341,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/icon/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -350,6 +364,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/cards/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -372,6 +387,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/callout/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -394,6 +410,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/advanced/customization/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -416,6 +433,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/advanced/comments/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -438,6 +456,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/deploy-site/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -460,6 +479,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/steps/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -482,6 +502,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/others/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -499,6 +520,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/tabs/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -521,6 +543,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -543,6 +566,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/guide/shortcodes/details/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -565,6 +589,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/docs/advanced/</loc>
+    <lastmod>2025-05-18T17:51:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
