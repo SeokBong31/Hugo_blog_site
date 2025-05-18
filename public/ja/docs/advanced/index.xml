@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hextra – 上級者向けトピック</title>
-    <link>http://localhost:1313/ja/docs/advanced/</link>
+    <link>https://example.com/ja/docs/advanced/</link>
     <description>Recent content in 上級者向けトピック on Hextra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     
-	  <atom:link href="http://localhost:1313/ja/docs/advanced/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://example.com/ja/docs/advanced/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>多言語対応</title>
-      <link>http://localhost:1313/ja/docs/advanced/multi-language/</link>
+      <link>https://example.com/ja/docs/advanced/multi-language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/advanced/multi-language/</guid>
+      <guid>https://example.com/ja/docs/advanced/multi-language/</guid>
       <description>
         
         
@@ -158,10 +158,10 @@
     
     <item>
       <title>Hextraのカスタマイズ</title>
-      <link>http://localhost:1313/ja/docs/advanced/customization/</link>
+      <link>https://example.com/ja/docs/advanced/customization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/advanced/customization/</guid>
+      <guid>https://example.com/ja/docs/advanced/customization/</guid>
       <description>
         
         
@@ -400,10 +400,10 @@
     
     <item>
       <title>コメントシステム</title>
-      <link>http://localhost:1313/ja/docs/advanced/comments/</link>
+      <link>https://example.com/ja/docs/advanced/comments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/advanced/comments/</guid>
+      <guid>https://example.com/ja/docs/advanced/comments/</guid>
       <description>
         
         

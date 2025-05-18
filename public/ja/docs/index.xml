@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hextra – イントロダクション</title>
-    <link>http://localhost:1313/ja/docs/</link>
+    <link>https://example.com/ja/docs/</link>
     <description>Recent content in イントロダクション on Hextra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     
-	  <atom:link href="http://localhost:1313/ja/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://example.com/ja/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>はじめに</title>
-      <link>http://localhost:1313/ja/docs/getting-started/</link>
+      <link>https://example.com/ja/docs/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/getting-started/</guid>
+      <guid>https://example.com/ja/docs/getting-started/</guid>
       <description>
         
         
@@ -306,10 +306,10 @@
     
     <item>
       <title>ファイルの整理</title>
-      <link>http://localhost:1313/ja/docs/guide/organize-files/</link>
+      <link>https://example.com/ja/docs/guide/organize-files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/organize-files/</guid>
+      <guid>https://example.com/ja/docs/guide/organize-files/</guid>
       <description>
         
         
@@ -765,10 +765,10 @@
     
     <item>
       <title>多言語対応</title>
-      <link>http://localhost:1313/ja/docs/advanced/multi-language/</link>
+      <link>https://example.com/ja/docs/advanced/multi-language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/advanced/multi-language/</guid>
+      <guid>https://example.com/ja/docs/advanced/multi-language/</guid>
       <description>
         
         
@@ -907,10 +907,10 @@
     
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/ja/docs/guide/markdown/</link>
+      <link>https://example.com/ja/docs/guide/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/markdown/</guid>
+      <guid>https://example.com/ja/docs/guide/markdown/</guid>
       <description>
         
         
@@ -1271,10 +1271,10 @@ Markdownのレンダリングは、&lt;code&gt;hugo.yaml&lt;/code&gt;の&lt;code
     
     <item>
       <title>設定</title>
-      <link>http://localhost:1313/ja/docs/guide/configuration/</link>
+      <link>https://example.com/ja/docs/guide/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/configuration/</guid>
+      <guid>https://example.com/ja/docs/guide/configuration/</guid>
       <description>
         
         
@@ -1408,7 +1408,7 @@ Markdownのレンダリングは、&lt;code&gt;hugo.yaml&lt;/code&gt;の&lt;code
 &lt;h2&gt;サイドバー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;サイドバー&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%82%b5%e3%82%a4%e3%83%89%e3%83%90%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;メインサイドバー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;メインサイドバー&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b5%e3%82%a4%e3%83%89%e3%83%90%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;メインサイドバーは、コンテンツディレクトリの構造から自動的に生成されます。
-詳細については、&lt;a href=&#34;http://localhost:1313/docs/guide/organize-files&#34; &gt;ファイルの整理&lt;/a&gt;ページを参照してください。&lt;/p&gt;
+詳細については、&lt;a href=&#34;https://example.com/docs/guide/organize-files&#34; &gt;ファイルの整理&lt;/a&gt;ページを参照してください。&lt;/p&gt;
 &lt;p&gt;左サイドバーから単一のページを除外するには、ページのフロントマターで&lt;code&gt;sidebar.exclude&lt;/code&gt;パラメータを設定します：&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
@@ -1724,10 +1724,10 @@ Markdownのレンダリングは、&lt;code&gt;hugo.yaml&lt;/code&gt;の&lt;code
     
     <item>
       <title>シンタックスハイライト</title>
-      <link>http://localhost:1313/ja/docs/guide/syntax-highlighting/</link>
+      <link>https://example.com/ja/docs/guide/syntax-highlighting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/syntax-highlighting/</guid>
+      <guid>https://example.com/ja/docs/guide/syntax-highlighting/</guid>
       <description>
         
         
@@ -1952,10 +1952,10 @@ Markdownコンテンツ内のコードブロックにはバッククォートを
     
     <item>
       <title>LaTeX</title>
-      <link>http://localhost:1313/ja/docs/guide/latex/</link>
+      <link>https://example.com/ja/docs/guide/latex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/latex/</guid>
+      <guid>https://example.com/ja/docs/guide/latex/</guid>
       <description>
         
         
@@ -2084,10 +2084,10 @@ $$\ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-}$$
     
     <item>
       <title>ダイアグラム</title>
-      <link>http://localhost:1313/ja/docs/guide/diagrams/</link>
+      <link>https://example.com/ja/docs/guide/diagrams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/diagrams/</guid>
+      <guid>https://example.com/ja/docs/guide/diagrams/</guid>
       <description>
         
         
@@ -2139,10 +2139,10 @@ $$\ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-}$$
     
     <item>
       <title>FileTree コンポーネント</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/filetree/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/filetree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/filetree/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/filetree/</guid>
       <description>
         
         
@@ -2230,10 +2230,10 @@ $$\ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-}$$
     
     <item>
       <title>Jupyter Notebook コンポーネント</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/jupyter/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/jupyter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/jupyter/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/jupyter/</guid>
       <description>
         
         
@@ -2564,10 +2564,10 @@ $$
     
     <item>
       <title>アイコン</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/icon/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/icon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/icon/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/icon/</guid>
       <description>
         
         
@@ -2643,10 +2643,10 @@ $$
     
     <item>
       <title>カードコンポーネント</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/cards/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/cards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/cards/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/cards/</guid>
       <description>
         
         
@@ -2661,13 +2661,13 @@ $$
     &lt;div class=&#34;hx-inline-flex hx-gap-1 hx-items-center hx-rounded-full hx-px-2.5 hx-leading-6 hx-text-[.65rem] hx-border hx-text-gray-600 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-text-neutral-200 hx-border-gray-200 dark:hx-border-neutral-700&#34;&gt;カスタムタグ&lt;/div&gt;
   &lt;/div&gt;&lt;/a&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;アイコンなし&lt;/span&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 3;&#34;&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;img
         alt=&#34;画像カード&#34;
         class=&#34;hextra-card-image&#34;
@@ -2680,25 +2680,25 @@ $$
       /&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;画像カード&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;インターネット画像&lt;/div&gt;&lt;/a&gt;
   
       &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;img
         alt=&#34;ローカル画像&#34;
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/card-image-unprocessed.jpg&#34;
+        src=&#34;https://example.com/images/card-image-unprocessed.jpg&#34;
         
         
         
       /&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;ローカル画像&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;staticディレクトリ下の未加工画像。&lt;/div&gt;&lt;/a&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;img
         alt=&#34;ローカル画像&#34;
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/space_hu_b298f3514b5c6cd4.webp&#34;
+        src=&#34;https://example.com/images/space_hu_b298f3514b5c6cd4.webp&#34;
         width=&#34;600&#34;
         height=&#34;450&#34;
         
@@ -2830,7 +2830,7 @@ $$
     &lt;div class=&#34;hx-inline-flex hx-gap-1 hx-items-center hx-rounded-full hx-px-2.5 hx-leading-6 hx-text-[.65rem] hx-border hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200&#34;&gt;タグテキスト&lt;/div&gt;
   &lt;/div&gt;&lt;/a&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;img
         alt=&#34;画像カード&#34;
         class=&#34;hextra-card-image&#34;
@@ -2866,19 +2866,19 @@ $$
     &lt;a href=&#34;#%e5%88%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;cards&lt;/code&gt;ショートコードに&lt;code&gt;cols&lt;/code&gt;パラメータを渡すことで、カードが広がる最大列数を指定できます。ただし、小さい画面では列は折りたたまれます。&lt;/p&gt;
 &lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 1;&#34;&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;上部カード&lt;/span&gt;&lt;/a&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;下部カード&lt;/span&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 2;&#34;&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;左カード&lt;/span&gt;&lt;/a&gt;
   &lt;a
-    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/&#34;
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://example.com/&#34;
       &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;右カード&lt;/span&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -2908,10 +2908,10 @@ $$
     
     <item>
       <title>コールアウトコンポーネント</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/callout/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/callout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/callout/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/callout/</guid>
       <description>
         
         
@@ -3055,10 +3055,10 @@ $$
     
     <item>
       <title>Hextraのカスタマイズ</title>
-      <link>http://localhost:1313/ja/docs/advanced/customization/</link>
+      <link>https://example.com/ja/docs/advanced/customization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/advanced/customization/</guid>
+      <guid>https://example.com/ja/docs/advanced/customization/</guid>
       <description>
         
         
@@ -3297,10 +3297,10 @@ $$
     
     <item>
       <title>コメントシステム</title>
-      <link>http://localhost:1313/ja/docs/advanced/comments/</link>
+      <link>https://example.com/ja/docs/advanced/comments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/advanced/comments/</guid>
+      <guid>https://example.com/ja/docs/advanced/comments/</guid>
       <description>
         
         
@@ -3352,10 +3352,10 @@ $$
     
     <item>
       <title>サイトのデプロイ</title>
-      <link>http://localhost:1313/ja/docs/guide/deploy-site/</link>
+      <link>https://example.com/ja/docs/guide/deploy-site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/deploy-site/</guid>
+      <guid>https://example.com/ja/docs/guide/deploy-site/</guid>
       <description>
         
         
@@ -3561,10 +3561,10 @@ $$
     
     <item>
       <title>ステップ</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/steps/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/steps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/steps/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/steps/</guid>
       <description>
         
         
@@ -3617,10 +3617,10 @@ HTMLコンテンツや他のショートコードをステップの内容とし�
     
     <item>
       <title>その他のショートコード</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/others/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/others/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/others/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/others/</guid>
       <description>
         
         
@@ -3753,10 +3753,10 @@ HTMLコンテンツや他のショートコードをステップの内容とし�
     
     <item>
       <title>タブ</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/tabs/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/tabs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/tabs/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/tabs/</guid>
       <description>
         
         
@@ -3963,10 +3963,10 @@ HTMLコンテンツや他のショートコードをステップの内容とし�
     
     <item>
       <title>詳細</title>
-      <link>http://localhost:1313/ja/docs/guide/shortcodes/details/</link>
+      <link>https://example.com/ja/docs/guide/shortcodes/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ja/docs/guide/shortcodes/details/</guid>
+      <guid>https://example.com/ja/docs/guide/shortcodes/details/</guid>
       <description>
         
         
