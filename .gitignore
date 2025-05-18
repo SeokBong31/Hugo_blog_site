@@ -1,0 +1,17 @@
+# Hugo
+public/
+resources/
+hugo_stats.json
+
+# SSH key for deployment
+hugo_deploy_key
+hugo_deploy_key.pub
+
+# Editor
+.vscode/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store

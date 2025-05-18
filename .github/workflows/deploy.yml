@@ -1,0 +1,43 @@
+name: Deploy SeokBong31's Hugo blog site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # source branch name
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.24'  # check your Go version
+
+      - name: Cache Hugo modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/hugo
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.3' # check your Hugo version
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          external_repository: SeokBong31/SeokBong31.github.io  # %GitHub name%/%public/ repository name%
+          publish_branch: master  # public/ repository branch name
+          publish_dir: ./public
