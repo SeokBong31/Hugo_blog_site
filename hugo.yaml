@@ -1,12 +1,13 @@
-# Configuration
-baseURL: "https://example.com/"
-title: "Hextra"
+# Configuration > All settings
+# Refer to URL: https://gohugo.io/configuration/all/
+baseURL: "https://seokbong31.github.io/"
+title: "Seokbong's blog"
 
 enableRobotsTXT: true
-# Parse Git commit
-enableGitInfo: true
-# enableEmoji: false
+enableGitInfo: true # Parse Git commit
+enableEmoji: true
 hasCJKLanguage: true
+enableInlineShortcodes: true
 
 # services:
 #   googleAnalytics:
@@ -21,24 +22,30 @@ defaultContentLanguage: en
 languages:
   en:
     languageName: English
+    languageCode: en
     weight: 1
-    title: Hextra
-  fa:
-    languageName: فارسی
-    languageCode: fa
-    languageDirection: rtl
+    title: Seokbong's blog
+  ko:
+    languageName: 한국어
+    languageCode: ko
     weight: 2
-    title: هگزترا
-  ja:
-    languageName: 日本語
-    languageCode: ja
-    weight: 3
-    title: Hextra
-  zh-cn:
-    languageName: 简体中文
-    languageCode: zh-CN
-    weight: 4
-    title: Hextra
+    title: Seokbong's blog
+  # fa:
+  #   languageName: فارسی
+  #   languageCode: fa
+  #   languageDirection: rtl
+  #   weight: 2
+  #   title: هگزترا
+  # ja:
+  #   languageName: 日本語
+  #   languageCode: ja
+  #   weight: 3
+  #   title: Hextra
+  # zh-cn:
+  #   languageName: 简体中文
+  #   languageCode: zh-CN
+  #   weight: 4
+  #   title: Hextra
 
 module:
   hugoVersion:
@@ -51,48 +58,66 @@ module:
 
 markup:
   highlight:
-    noClasses: false
+    noClasses: false  # false: CSS class-based styling
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true  # for HTML
     extensions:
-      passthrough:
+      passthrough:  # for KaTeX
         delimiters:
           block: [['\[', '\]'], ['$$', '$$']]
           inline: [['\(', '\)']]
         enable: true
 
-enableInlineShortcodes: true
-
 menu:
-  main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
+  main: # top navigation bar
+    # - identifier: documentation
+    #   name: Documentation
+    #   pageRef: /docs
+    #   weight: 1
+    # - identifier: showcase
+    #   name: Showcase
+    #   pageRef: /showcase
+    #   weight: 2
+    # - identifier: blog
+    #   name: Blog
+    #   pageRef: /blog
+    #   weight: 3
+    - identifier: programming language
+      name: Programming Language
+      pageRef: /pl
       weight: 1
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
+    - identifier: data structure & algorithm
+      name: Data Structure & Algorithm
+      pageRef: /dsa
       weight: 2
-    - identifier: blog
-      name: Blog
-      pageRef: /blog
+    - identifier: computer science
+      name: Computer Science
+      pageRef: /cs
       weight: 3
+    - identifier: computer graphics
+      name: Computer Graphics
+      pageRef: /cg
+      weight: 4
+    - identifier: project
+      name: Project
+      pageRef: /project
+      weight: 5
     - identifier: about
       name: About
       pageRef: /about
-      weight: 4
+      weight: 6
     - name: Search
-      weight: 5
+      weight: 7
       params:
         type: search
     - name: GitHub
-      weight: 6
-      url: "https://github.com/imfing/hextra"
+      weight: 8
+      url: "https://github.com/SeokBong31"
       params:
         icon: github
 
-  sidebar:
+  sidebar:  # side menu
     - identifier: more
       name: More
       params:
@@ -102,20 +127,21 @@ menu:
       name: "About"
       pageRef: "/about"
       weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 3
+    # - identifier: hugoDocs
+    #   name: "Hugo Docs ↗" # ↗: convention of displaying external links
+    #   url: "https://gohugo.io/documentation/"
+    #   weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  # for SEO(Search Engine Optimization)
+  description: A portfolio and blog of a 3D graphics engineer aspiring to become an exceptional software developer.
 
-  navbar:
+  navbar: # top navigation bar setting
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
+      path: images/infinity_logo.svg
+      dark: images/infinity_logo_dark.svg
       # width: 40
       # height: 20
       # link: /
@@ -128,9 +154,9 @@ params:
   theme:
     # light | dark | system
     default: system
-    displayToggle: true
+    displayToggle: true # whether to enable mode transition
 
-  footer:
+  footer: # the bottom area setting
     enable: true
     displayCopyright: true
     displayPoweredBy: true
@@ -138,7 +164,7 @@ params:
 
   # Display the last modification date
   displayUpdatedDate: true
-  dateFormat: "January 2, 2006"
+  dateFormat: "January 2, 2006" # date format rule of Hugo
 
   # Search
   # flexsearch is enabled by default
@@ -146,16 +172,16 @@ params:
     enable: true
     type: flexsearch
 
+    # Refer to URL: https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
     flexsearch:
       # index page by: content | summary | heading | title
       index: content
       # full | forward | reverse | strict
-      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
 
   editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+    enable: false
+    base: "https://github.com/SeokBong31/Hugo_blog_site/tree/master/content"
 
   blog:
     list:
@@ -165,28 +191,29 @@ params:
       sortOrder: desc # or "asc"
     
     article:
-      displayPagination: true
+      displayPagination: true # Show previous/next post link at the bottom of the post
 
   highlight:
     copy:
       enable: true
       # hover | always
-      display: hover
+      display: always
 
   comments:
-    enable: false
+    enable: true
     type: giscus
 
-    # https://giscus.app/
+    # Refer to URL: https://giscus.app/
     giscus:
-      repo: imfing/hextra
-      repoId: R_kgDOJ9fJag
-      category: General
-      categoryId: DIC_kwDOJ9fJas4CY7gW
-      # mapping: pathname
-      # strict: 0
-      # reactionsEnabled: 1
-      # emitMetadata: 0
-      # inputPosition: top
-      # lang: en
-      # theme: noborder_dark
+      repo: SeokBong31/Hugo_blog_site
+      repoId: R_kgDOOsAgcw
+      category: Blog comments
+      categoryId: DIC_kwDOOsAgc84CqVyy
+      mapping: pathname
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 1
+      inputPosition: top
+      theme: preferred_color_scheme
+      lang: en
+      loading: lazy
