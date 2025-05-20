@@ -18,34 +18,18 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
-defaultContentLanguage: en
+defaultContentLanguage: ko
 languages:
-  en:
-    languageName: English
-    languageCode: en
-    weight: 1
-    title: Seokbong's blog
   ko:
     languageName: 한국어
     languageCode: ko
+    weight: 1
+    title: Seokbong's blog
+  en:
+    languageName: English
+    languageCode: en
     weight: 2
     title: Seokbong's blog
-  # fa:
-  #   languageName: فارسی
-  #   languageCode: fa
-  #   languageDirection: rtl
-  #   weight: 2
-  #   title: هگزترا
-  # ja:
-  #   languageName: 日本語
-  #   languageCode: ja
-  #   weight: 3
-  #   title: Hextra
-  # zh-cn:
-  #   languageName: 简体中文
-  #   languageCode: zh-CN
-  #   weight: 4
-  #   title: Hextra
 
 module:
   hugoVersion:
@@ -71,18 +55,6 @@ markup:
 
 menu:
   main: # top navigation bar
-    # - identifier: documentation
-    #   name: Documentation
-    #   pageRef: /docs
-    #   weight: 1
-    # - identifier: showcase
-    #   name: Showcase
-    #   pageRef: /showcase
-    #   weight: 2
-    # - identifier: blog
-    #   name: Blog
-    #   pageRef: /blog
-    #   weight: 3
     - identifier: programming language
       name: Programming Language
       pageRef: /pl
@@ -127,10 +99,6 @@ menu:
       name: "About"
       pageRef: "/about"
       weight: 2
-    # - identifier: hugoDocs
-    #   name: "Hugo Docs ↗" # ↗: convention of displaying external links
-    #   url: "https://gohugo.io/documentation/"
-    #   weight: 3
 
 params:
   # for SEO(Search Engine Optimization)
@@ -140,8 +108,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/infinity_logo.svg
-      dark: images/infinity_logo_dark.svg
+      path: logos/infinity_logo.svg
+      dark: logos/infinity_logo_dark.svg
       # width: 40
       # height: 20
       # link: /
@@ -214,6 +182,6 @@ params:
       reactionsEnabled: 1
       emitMetadata: 1
       inputPosition: top
-      theme: preferred_color_scheme
+      theme: noborder_dark  # or "preferred_color_scheme"
       lang: en
       loading: lazy
