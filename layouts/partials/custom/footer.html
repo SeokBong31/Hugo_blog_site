@@ -1,0 +1,37 @@
+<!-- scheduled: from 'hard coding' to 'multi-language' -->
+{{- $copyright := "© 2025– Seokbong. All rights reserved." -}}
+{{- $poweredBy := "Powered by Hextra and customized by Seokbong" -}}
+
+{{ $ctx := .context }}
+
+{{- $footerWidth := "hx:max-w-screen-xl" -}}
+{{- with $ctx.Site.Params.footer.width -}}
+  {{ if eq . "wide" -}}
+    {{ $footerWidth = "hx:max-w-[90rem]" -}}
+  {{ else if eq . "full" -}}
+    {{ $footerWidth = "max-w-full" -}}
+  {{ end -}}
+{{- end -}}
+
+<div class="{{ $footerWidth }} flex-container">
+  <div class="items">
+
+    <!-- Powered by -->
+    <div class="poweredBy-wrapper">
+      <div class="poweredBy-text">
+        {{ $poweredBy }}
+      </div>
+      <img
+        src="{{ "infinity_icon.svg" | relURL }}"
+        alt="infinity icon"
+        class="poweredBy-icon"
+      />
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright-text">
+      {{ $copyright }}
+    </div>
+
+  </div>
+</div>

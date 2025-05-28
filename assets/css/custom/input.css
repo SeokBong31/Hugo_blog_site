@@ -1,0 +1,51 @@
+@import "tailwindcss" prefix(hx);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hextra-footer .flex-container {
+  @apply hx:mx-auto
+         hx:flex
+         hx:justify-center
+         hx:py-12
+         hx:pl-[max(env(safe-area-inset-left),1.5rem)]
+         hx:pr-[max(env(safe-area-inset-right),1.5rem)]
+         hx:text-gray-600
+         hx:dark:text-gray-400
+         hx:md:justify-start;
+}
+
+.hextra-footer .items {
+  @apply hx:flex
+         hx:w-full
+         hx:flex-col
+         hx:items-center
+         hx:sm:items-start;
+}
+
+.hextra-footer .poweredBy-wrapper {
+  @apply hx:flex
+         hx:text-sm
+         hx:items-center
+         hx:gap-1
+         hx:text-current;
+}
+
+.hextra-footer .poweredBy-text {
+  @apply hx:font-semibold;
+}
+
+.hextra-footer .poweredBy-icon {
+  @apply hx:inline-block
+         hx:ltr:ml-1
+         hx:rtl:mr-1
+         hx:align-[-2.5px]
+         hx:w-[1em]
+         hx:h-[1em];
+}
+
+.hextra-footer .copyright-text {
+  @apply hx:mt-6
+         hx:text-xs;
+}

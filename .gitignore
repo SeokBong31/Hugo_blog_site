@@ -1,17 +1,17 @@
-# Hugo
+# Hugo build output and cache
 public/
 resources/
 hugo_stats.json
 
-# SSH key for deployment
-hugo_deploy_key
-hugo_deploy_key.pub
+# Node modules and Tailwind build artifacts
+node_modules/
+*.log
 
-# Editor
+# Editor and OS-specific files
 .vscode/
-
-# Windows
+.DS_Store
 Thumbs.db
 
-# macOS
-.DS_Store
+# SSH key for deployment (do NOT commit)
+hugo_deploy_key
+hugo_deploy_key.pub
