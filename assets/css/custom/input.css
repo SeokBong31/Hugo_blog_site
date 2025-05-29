@@ -4,19 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.hextra-footer .flex-container {
+.hextra-custom-footer {
   @apply hx:mx-auto
          hx:flex
          hx:justify-center
          hx:py-12
-         hx:pl-[max(env(safe-area-inset-left),1.5rem)]
-         hx:pr-[max(env(safe-area-inset-right),1.5rem)]
-         hx:text-gray-600
-         hx:dark:text-gray-400
          hx:md:justify-start;
 }
 
-.hextra-footer .items {
+.hextra-custom-footer .items {
   @apply hx:flex
          hx:w-full
          hx:flex-col
@@ -24,7 +20,7 @@
          hx:sm:items-start;
 }
 
-.hextra-footer .poweredBy-wrapper {
+.hextra-custom-footer .poweredBy-wrapper {
   @apply hx:flex
          hx:text-sm
          hx:items-center
@@ -32,11 +28,11 @@
          hx:text-current;
 }
 
-.hextra-footer .poweredBy-text {
+.hextra-custom-footer .poweredBy-text {
   @apply hx:font-semibold;
 }
 
-.hextra-footer .poweredBy-icon {
+.hextra-custom-footer .poweredBy-icon {
   @apply hx:inline-block
          hx:ltr:ml-1
          hx:rtl:mr-1
@@ -45,7 +41,7 @@
          hx:h-[1em];
 }
 
-.hextra-footer .copyright-text {
+.hextra-custom-footer .copyright-text {
   @apply hx:mt-6
          hx:text-xs;
 }
