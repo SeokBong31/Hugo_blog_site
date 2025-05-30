@@ -2,10 +2,12 @@
 public/
 resources/
 hugo_stats.json
+.hugo_build.lock
 
 # Node modules and Tailwind build artifacts
 node_modules/
 *.log
+assets/css/custom.css
 
 # Editor and OS-specific files
 .vscode/
@@ -15,3 +17,6 @@ Thumbs.db
 # SSH key for deployment (do NOT commit)
 hugo_deploy_key
 hugo_deploy_key.pub
+
+# Environment variables (if added later)
+.env*

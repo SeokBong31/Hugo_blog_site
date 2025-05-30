@@ -31,6 +31,17 @@ jobs:
         with:
           hugo-version: '0.147.3' # check your Hugo version
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Build Tailwind CSS
+        run: npm run build:css
+
       - name: Build
         run: hugo --minify
 
