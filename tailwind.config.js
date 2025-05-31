@@ -1,4 +1,5 @@
 module.exports = {
+    prefix: 'hx:',
     content: [
         "./assets/**/*.css",
         "./content/**/*.md",
@@ -7,5 +8,7 @@ module.exports = {
     theme: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'),
+    ],
 };
