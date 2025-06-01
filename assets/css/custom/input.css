@@ -31,7 +31,7 @@
 
 /* custom button for homepage */
 .homepage-custom-button {
-  @apply hx:mb-6 hx:mx-auto hx:max-w-xl hx:flex hx:justify-center hx:gap-12
+  @apply hx:mb-6 hx:mx-auto hx:max-w-xl hx:flex hx:flex-wrap hx:justify-center hx:gap-2 hx:sm:gap-8 hx:md:gap-12
 }
 
 .homepage-custom-button .btn-base {

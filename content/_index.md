@@ -13,7 +13,8 @@ layout: hextra-home
 <!-- subtitle -->
 <div class="hx:mb-12 hx:mx-auto hx:text-center hx:max-w-xl">
 {{< hextra/hero-subtitle >}}
-  Photo-realistic real-time rendering&nbsp;<br class="hx:sm:block hx:hidden" />that looks just like reality
+  Photo-realistic real-time rendering<br class="hx:block" />
+  that looks just like reality
 {{< /hextra/hero-subtitle >}}
 </div>
 
