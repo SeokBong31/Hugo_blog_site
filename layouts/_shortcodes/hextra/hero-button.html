@@ -1,0 +1,18 @@
+{{- $link := .Get "link" -}}
+{{- $text := .Get "text" -}}
+{{- $style := .Get "style" -}}
+
+{{- $default := "hx:bg-primary-600 hx:hover:bg-primary-700 hx:focus:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:dark:focus:ring-primary-800" -}}
+{{- $custom := .Get "custom" -}}
+
+{{- $external := hasPrefix $link "http" -}}
+{{- $href := cond (hasPrefix $link "/") ($link | relURL) $link -}}
+
+<a
+  href="{{ $href }}"
+  class="not-prose btn-base {{ if $custom }}{{ $custom }}{{ else }}{{ $default }}{{ end -}}"
+  {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+  {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
+>
+  {{- $text -}}
+</a>

@@ -1,0 +1,51 @@
+@import "tailwindcss" prefix(hx);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom footer */
+.hextra-custom-footer {
+  @apply hx:mx-auto hx:flex hx:justify-center hx:py-12 hx:md:justify-start;
+}
+
+.hextra-custom-footer .items {
+  @apply hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start;
+}
+
+.hextra-custom-footer .poweredBy-wrapper {
+  @apply hx:flex hx:text-sm hx:items-center hx:gap-1 hx:text-current;
+}
+
+.hextra-custom-footer .poweredBy-text {
+  @apply hx:font-semibold;
+}
+
+.hextra-custom-footer .poweredBy-icon {
+  @apply hx:inline-block hx:ltr:ml-1 hx:rtl:mr-1 hx:align-[-2.5px] hx:w-[1em] hx:h-[1em];
+}
+
+.hextra-custom-footer .copyright-text {
+  @apply hx:mt-6 hx:text-xs;
+}
+
+/* custom button for homepage */
+.homepage-custom-button {
+  @apply hx:mb-6 hx:mx-auto hx:max-w-xl hx:flex hx:flex-wrap hx:justify-center hx:gap-2 hx:sm:gap-8 hx:md:gap-12
+}
+
+.homepage-custom-button .btn-base {
+  @apply hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:focus:outline-hidden hx:focus:ring-4 hx:transition-all hx:ease-in hx:duration-200 hx:min-w-[7rem]
+}
+
+.homepage-custom-button .btn-red {
+  @apply hx:bg-red-600 hx:hover:bg-red-700 hx:focus:ring-red-300 hx:dark:bg-red-600 hx:dark:hover:bg-red-700 hx:dark:focus:ring-red-800
+}
+
+.homepage-custom-button .btn-green {
+  @apply hx:bg-green-600 hx:hover:bg-green-700 hx:focus:ring-green-300 hx:dark:bg-green-600 hx:dark:hover:bg-green-700 hx:dark:focus:ring-green-800
+}
+
+.homepage-custom-button .btn-blue {
+  @apply hx:bg-blue-600 hx:hover:bg-blue-700 hx:focus:ring-blue-300 hx:dark:bg-blue-600 hx:dark:hover:bg-blue-700 hx:dark:focus:ring-blue-800
+}

@@ -1,0 +1,179 @@
+# Configuration > All settings
+# Refer to URL: https://gohugo.io/configuration/all/
+baseURL: "https://seokbong31.github.io/"
+title: "Seokbong's blog"
+
+enableRobotsTXT: true
+enableGitInfo: true # Parse Git commit
+enableEmoji: true
+hasCJKLanguage: true
+enableInlineShortcodes: true
+
+# services:
+#   googleAnalytics:
+#     ID: G-MEASUREMENT_ID
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: ko
+languages:
+  ko:
+    languageName: 한국어
+    languageCode: ko
+    weight: 1
+    title: Seokbong's blog
+  en:
+    languageName: English
+    languageCode: en
+    weight: 2
+    title: Seokbong's blog
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.134.0"
+
+  # workspace: hugo.work
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  highlight:
+    noClasses: false  # false: CSS class-based styling
+  goldmark:
+    renderer:
+      unsafe: true  # for HTML
+    extensions:
+      passthrough:  # for KaTeX
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+menu:
+  main: # top navigation bar
+    - identifier: study
+      name: Study
+      pageRef: /study
+      weight: 1
+    - identifier: project
+      name: Project
+      pageRef: /project
+      weight: 2
+    - identifier: life
+      name: Life
+      pageRef: /life
+      weight: 3
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/SeokBong31"
+      params:
+        icon: github
+
+  sidebar:  # side menu
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+
+params:
+  # for SEO(Search Engine Optimization)
+  description: A portfolio and blog of a 3D graphics engineer aspiring to become an exceptional software developer.
+
+  navbar: # top navigation bar setting
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: logos/infinity_logo.svg
+      dark: logos/infinity_logo_dark.svg
+      # width: 40
+      # height: 20
+      # link: /
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true # whether to enable mode transition
+
+  footer: # the bottom area setting
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+    width: normal
+
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006" # date format rule of Hugo
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    # Refer to URL: https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      tokenize: forward
+
+  editURL:
+    enable: false
+    base: "https://github.com/SeokBong31/Hugo_blog_site/tree/master/content"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+    
+    article:
+      displayPagination: true # Show previous/next post link at the bottom of the post
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: always
+
+  comments:
+    enable: true
+    type: giscus
+
+    # Refer to URL: https://giscus.app/
+    giscus:
+      repo: SeokBong31/Hugo_blog_site
+      repoId: R_kgDOOsAgcw
+      category: Blog comments
+      categoryId: DIC_kwDOOsAgc84CqVyy
+      mapping: pathname
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 1
+      inputPosition: top
+      theme: noborder_dark  # or "preferred_color_scheme"
+      lang: en
+      loading: lazy
