@@ -141,7 +141,7 @@ params:
 
   editURL:
     enable: false
-    base: "https://github.com/SeokBong31/Hugo_blog_site/tree/master/content"
+    base: "https://github.com/SeokBong31/Hugo_blog_site"
 
   blog:
     list:

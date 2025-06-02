@@ -3,7 +3,7 @@ name: Deploy SeokBong31's Hugo blog site to GitHub Pages
 on:
   push:
     branches:
-      - master  # source branch name
+      - main  # source branch name
 
 jobs:
   build-deploy:
@@ -50,5 +50,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY }}
           external_repository: SeokBong31/SeokBong31.github.io  # %GitHub name%/%public/ repository name%
-          publish_branch: master  # public/ repository branch name
+          publish_branch: main  # public/ repository branch name
           publish_dir: ./public
